@@ -1,1 +1,92 @@
+@charset "utf-8";
+@font-face{font-family: "zapfino";
+src:url("ZapfinoExtraLT-One.otf") format("opentype")}
+body{
+    color: #999999;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+}
+	h1{
+		color: black;
+		font-size: 50px;
+		font-family: zapfino;
+	}
 	a{
+		color:#6D2542;
+		text-decoration: none;
+	}
+/**********la page*******/
+.page{
+    width: 746px;
+    margin-left: auto;
+    margin-right: auto;
+	background:#7B1C88;
+}
+
+/**********en tête*******/
+
+.en-tête{
+    padding-top: 153px;
+    padding-left: 334px;
+    background-image: url(images/orchid-big.png);
+    background-repeat: no-repeat;
+}
+	/*-----------
+	Les colonnes
+	-------------*/
+	.colonnes{
+		display:flex;
+		align-items: flex-start;
+	}
+	
+	
+/**********colonne de gauche*******/
+
+.colonne-gauche{
+		background:aqua;
+	
+}
+	.CSS{
+		text-decoration: underline dotted;
+		color:#999999
+	}
+	.colonne-gauche h2{
+		color: #6D2542;
+		font-size: 40px;
+		font-family: zapfino;
+		padding-left: 70px;
+		background-image: url(images/orchid-mini.png);
+		background-repeat: no-repeat;
+		min-height: 50px;
+	}
+	.colonne-gauche h2 + p:first-letter {
+			color:red;
+			font-size: 24px;
+	}
+
+
+/**********colonne de droite*******/
+.colonne-droite{
+    background-color: #C5D055;
+    background-image: url("images/orchid-medium.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 250px;
+}
+	.auteur{
+		color:#999999;
+		font-weight: bold;
+		font-size: 8px;
+	}
+	.colonne-droite H2{
+		color: grey;
+		text-transform: uppercase;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-size: 10px;
+	}
+
+
+
+	
+
