@@ -1,2 +1,3 @@
 # garden-zen
-mon premier projet avec Git
+Hello
+mon premier projet avec Git !
